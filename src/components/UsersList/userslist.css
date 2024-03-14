@@ -1,0 +1,46 @@
+.userList {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.user-card {
+    width: 25%;
+    height: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 0 0 3% 0;
+    background-color: whitesmoke;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.user-card p {
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.user-card h2{
+    color: #495057;
+}
+.user-card svg {
+    margin-right: 7px;
+    font-size: 18px;
+    color: dimgrey;
+}
+.form-control {
+    display: block;
+    width: 98%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
